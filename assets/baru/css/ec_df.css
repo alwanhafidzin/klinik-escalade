@@ -1,0 +1,82 @@
+﻿.ec_df a{
+    cursor:pointer;
+}
+
+.ec_df_toolbar{
+    margin-bottom:10px;
+}
+
+.ec_df_toolbar .btn{
+    margin-right:3px;
+}
+
+.ec_df_formgroup{
+}
+
+.ec_df_formgroup h1, .ec_df_formgroup h2, .ec_df_formgroup h3, .ec_df_formgroup h4, .ec_df_formgroup h5{
+    font-size:16px;
+    margin:0px;
+    padding:5px;
+    text-align:center;
+    border-bottom:solid 3px #ddd;
+    margin-bottom:10px;
+}
+
+.ec_df_fieldcell{
+    margin-bottom:3px;
+}
+
+.ec_df_fieldcell .ec_df_input{
+    width:100%;
+}
+
+.ec_df_entry{
+
+}
+
+.ec_df_entry .ec_df_date{
+    width:100px;
+}
+
+.ecis-app a{
+    cursor:pointer;
+}
+
+.ecis-app [control='toolbar'] button{
+    margin-right:3px;
+}
+
+.ec-number{
+    text-align:right;
+}
+
+.ec-align-right{
+    text-align:right;
+}
+
+.ec-panel{
+
+}
+
+.ec-toolbar{
+    margin-bottom:10px;
+}
+.full{
+    width:100%;
+}
+
+.ec-form{
+
+}
+
+    .ec-form .form-group{
+        margin-bottom: 5px;
+    }
+
+.ec-number{
+    text-align:right;
+}
+
+.ec-right{
+    text-align:right;
+}

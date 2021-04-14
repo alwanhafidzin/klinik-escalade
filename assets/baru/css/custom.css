@@ -1,0 +1,247 @@
+/* Added by Ainur - 20140028 */
+/* Dropdown - pull right*/
+.dropdown-submenu {
+	position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: -6px;
+	margin-left: -1px;
+	-webkit-border-radius: 0 6px 6px 6px;
+	-moz-border-radius: 0 6px 6px;
+	border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+	display: block;
+}
+
+.dropdown-submenu > a:after {
+	display: block;
+	content: " ";
+	float: right;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 5px 0 5px 5px;
+	border-left-color: #ccc;
+	margin-top: 5px;
+	margin-right: -10px;
+}
+
+.dropdown-submenu:hover > a:after {
+	border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+	float: none;
+}
+
+.dropdown-submenu.pull-left > .dropdown-menu {
+	left: -100%;
+	margin-left: 10px;
+	-webkit-border-radius: 6px 0 6px 6px;
+	-moz-border-radius: 6px 0 6px 6px;
+	border-radius: 6px 0 6px 6px;
+}
+         
+/* Dropdown - pull left*/
+
+.dropdown-submenu-left {
+	position: relative;
+}
+
+.dropdown-submenu-left > .dropdown-menu {
+	top: 0;
+	left:-100%;
+	margin-top: -6px;
+	margin-right: -1px;
+	-webkit-border-radius: 0 6px 6px 6px;
+	-moz-border-radius: 0 6px 6px;
+	border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu-left:hover > .dropdown-menu {
+	display: block;
+}
+
+.dropdown-submenu-left > a:after {
+	display: block;
+	content: " ";
+	float: left;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 5px 5px 5px 0px;
+	border-right-color: #ccc;
+	/*margin-top: 5px;*/
+    margin-top: 2.5px;
+	margin-left: -10px;
+}
+
+.dropdown-submenu-left:hover > a:after {
+	border-left-color: #fff;
+}
+
+.dropdown-submenu-left.pull-left {
+	float: none;
+}
+
+.dropdown-submenu-left.pull-left > .dropdown-menu {
+	left: -100%;
+	margin-left: 10px;
+	-webkit-border-radius: 6px 0 6px 6px;
+	-moz-border-radius: 6px 0 6px 6px;
+	border-radius: 6px 0 6px 6px;
+}   
+.dropdown-submenu-left ul{
+    font-size:11px;
+}
+
+.btn-custom {
+    color: white;
+    background-image: none;
+    box-shadow: none;
+    text-shadow: none;
+   
+}
+
+.btn-custom:hover {
+    color: white;
+}
+
+.btn-custom.btn-primary {
+    border: 1px solid #3F79AB;
+}
+
+.btn-custom.btn-shell {
+    background-color: #f4b350;
+    border: 1px solid #E2A952;
+}
+
+.btn-custom.btn-shell:hover {
+    background-color: #E29B2F;
+    border: 1px solid #D5983A;
+}
+
+.btn-custom .k-icon { opacity: 1; }
+.btn-custom .k-icon:hover { opacity: inherit; }
+.btn-custom .k-icon.k-i-pdf { background-position: -80px -80px !important; }
+.k-grid .k-grid-toolbar.k-header { background-color: #F9F9FB; }
+.k-grid .k-grid-toolbar .k-button-icontext { background-color: #f4b350; border: 1px solid #E2A952; position: relative; padding-left: 28px; font-size: 12px; }
+.k-grid .k-grid-toolbar .k-button-icontext .k-icon { position: absolute; left: 12px; top: 7px; }
+.k-grid .k-grid-toolbar .k-button-icontext .k-icon.k-i-pdf { background-position: -80px -80px !important; }
+.k-grid .k-grid-toolbar .k-button-icontext .k-icon.k-i-excel { background-position: -80px -96px !important; }
+.k-grid .k-grid-toolbar .k-button-icontext:hover { background-color: #E29B2F; border: 1px solid #D5983A; }
+
+#pageTitle { margin-bottom: 10px; }
+
+.filter input[type=text], .filter input[type=date], .filter input[type=number] { width: 100%; }
+.filter .text { background-color: rgb(249, 249, 249); border: 1px solid rgb(239, 239, 239); padding: 2px 8px 3px; height: auto; line-height: 20px; }
+.filter .col-md-4 .col-md-4 { padding: 0px; text-align: right; }
+.filter .col-md-4 .col-md-4 label { padding-top: 4px !important; }
+.filter .col-md-4 .col-md-8 { padding-left: 6px; padding-right: 6px; }
+.filter .col-md-8 { text-align: left; }
+.filter > .col-md-4 { margin-bottom: 5px !important; }
+.filter > .col-md-12 { margin-top: 5px !important; }
+
+
+.k-alt{
+	background-color: hsla(208, 56%, 53%, 0.2) !important;
+}
+.k-button.k-primary{
+	border-color: #3F79AB !important;
+	background-color: #428bca !important;
+}
+.k-button.k-primary:hover{
+	background-color: #2d6ca2 !important;
+    border-color: #2b669a !important;
+}
+
+.k-multiselect-wrap{
+	border-radius: 0px !important;
+	border: solid 1px;
+    border-color: #DDD;
+    line-height: 23px;
+}
+
+.k-widget.k-datepicker.k-header{
+	max-width: 100%;
+	min-width: 90px;
+    border-radius: 0px !important;
+    border: solid 1px;
+    border-color: #DDD;
+    line-height: 23px;
+}
+
+.k-loading-image {
+    background-image: url('../img/29.gif')
+}
+
+ .k-header{
+	text-align: center !important;
+    vertical-align: middle !important;
+    color: #a8a8a8 !important;
+}
+
+ .k-grid-excel{
+  	width: 130px !important;
+  	margin-right: 100% !important;
+  	background-color: #2D6CA2 !important;
+  	border-color: #2B669A !important;
+}
+
+.modal.modal-wide .modal-dialog {
+  width: 98%;
+}
+.modal-wide .modal-body {
+  overflow-x: auto; 
+}
+
+/* .modal-body p { margin-bottom: 900px } */
+
+.k-grid td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#ContFilter{
+	position: absolute;
+    top: 159px;
+    left: 28px;
+    z-index: 1;
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+}
+#ContCommand{
+    position: absolute;
+    top: 254px;
+    right: -66px;
+    z-index: 1;
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+}
+
+.k-grid-custom{border-width: 1px; border-style: solid; border-bottom-width: 0px; border-color: #e5e5e5;}
+.k-grid-custom .k-grid-toolbar.k-header { background-color: #F9F9FB; }
+.k-grid-custom .k-grid-toolbar .k-button-icontext {
+    background-color: #f4b350;
+    border: 1px solid #E2A952;
+    position: relative;
+    padding-left: 28px;
+    font-size: 12px;
+}
+.k-grid-custom .k-button{color: white; -webkit-box-shadow: none; box-shadow: none;}
+.k-grid-custom .k-grid-toolbar .k-button-icontext .k-icon.k-i-excel {
+    background-position: -80px -96px !important;
+}
+.k-grid-custom .k-grid-toolbar .k-button-icontext .k-icon {
+    position: absolute;
+    left: 12px;
+    top: 7px;
+}
